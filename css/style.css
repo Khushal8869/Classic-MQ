@@ -1,0 +1,381 @@
+:root {
+    --theme-head: #cc9900;
+    --theme-reg: #fff;
+    --theme-grey: #8c8c8c;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+html body {
+    font-family: 'Open sans', Helvetica, sans-serif
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.d-none {
+    display: none;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-12 {
+    width: 100%;
+    padding: 0 15px;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 0 15px;
+}
+
+.col-3 {
+    width: 25%;
+    padding: 0 15px;
+}
+
+/* header section start */
+.navbar {
+    margin: 1.3rem 0;
+}
+
+.header .logo {
+    font-size: 42px;
+    font-weight: 500;
+    color: var(--theme-head);
+}
+
+.header ul li a {
+    font-size: 20px;
+}
+
+.header ul li a {
+    padding: 12px 36px;
+    margin: 8px 12px;
+    border-radius: 5px;
+    transition: all .3s ease;
+}
+
+.header ul li a:hover {
+    background-color: #cc9900;
+    color: var(--theme-reg);
+}
+
+.header ul li:first-child a {
+    background-color: #cc9900;
+    color: var(--theme-reg);
+}
+
+.header .toggle {
+    border: 1px solid #cc9900;
+    /* border: 0; */
+    font-size: 18px;
+    color: #cc9900;
+    padding: 3px;
+}
+
+/* header section end */
+
+/* hero section start */
+.hero {
+    background: url('../image/home.jpg');
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero img {
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+
+/* hero section end */
+
+
+/* full-main section start */
+main .full-main {
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+/* full-main section end */
+
+/* scetion-1 start */
+.section-1 {
+    /* padding: 3.5rem 0; */
+    /* padding: 80px 0 100px 0; */
+    text-align: center;
+}
+
+.section-1 h2 {
+    margin-bottom: 1rem;
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: var(--theme-head);
+}
+
+.section-1 p {
+    margin-bottom: 80px;
+    line-height: 1.9;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--theme-grey)
+}
+
+/* scetion-1 end */
+
+/* scetion-2 start */
+.section-2 {
+    margin: 2rem 0;
+}
+
+.section-2 img {
+    margin-bottom: 20px;
+}
+
+.section-2 h4 {
+    /* padding: 1rem 0 1.3rem; */
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.6;
+    color: var(--theme-head);
+}
+
+.section-2 p {
+    /* padding-top: 1rem; */
+    margin-bottom: 20px;
+    line-height: 2;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--theme-grey)
+}
+
+.section-2 a {
+    padding: 10px 30px;
+    color: var(--theme-reg);
+    background-color: var(--theme-head);
+    border: 0;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+
+.section-2 a:hover {
+    background-color: #946f00f5;
+}
+
+/* scetion-2 end */
+
+/* scetion-3 start */
+.section-3 {
+    margin-top: 90px;
+}
+
+.section-3 h3 {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    font-size: 27px;
+    font-weight: 500;
+    color: var(--theme-head);
+}
+
+.section-3 .text-1 {
+    margin-bottom: 30px;
+    line-height: 2;
+    font-size: 18px;
+    font-weight: 300;
+    color: var(--theme-grey);
+}
+
+.section-3 .tea-cup {
+    margin-bottom: 40px;
+}
+
+.section-3 p {
+    margin-bottom: 1rem;
+    line-height: 2;
+    font-size: 18px;
+    font-weight: 300;
+    color: var(--theme-grey);
+}
+
+.section-3 .btn-1 {
+    color: var(--theme-reg);
+    background-color: var(--theme-head);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 300;
+    transition: all .3s ease;
+}
+
+.section-3 .btn-1:hover {
+    background-color: #946f00f5;
+}
+
+.section-3 ul li {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.section-3 ul li a {
+    color: #006699;
+    line-height: 2.9;
+    text-decoration: underline;
+}
+
+.section-3 ul li a:hover {
+    text-decoration: none;
+}
+
+.section-3 .related {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    font-size: 27px;
+    font-weight: 500;
+    color: var(--theme-head);
+}
+
+.section-3 .related-img {
+    /* width: 240px; */
+    height: 155px;
+    padding-right: 25px;
+}
+
+.section-3 h4 {
+    margin-bottom: 15px;
+    margin-top: 0;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 1.6;
+    color: var(--theme-head);
+}
+
+.section-3 .related-txt {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 2;
+    color: var(--theme-grey);
+}
+
+/* scetion-3 end */
+
+/* main section end */
+
+/* footer section start */
+footer {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-image: url("../image/foot-back.jpg");
+    height: 100vh;
+    color: #c6c6c6;
+}
+
+footer .foot-1 {
+    width: 318px;
+    padding: 0 15px;
+}
+
+footer h3 {
+    margin-bottom: 30px;
+    font-size: 27px;
+    font-weight: 500;
+    color: var(--theme-head);
+}
+
+footer .foot-1 .card {
+    background-color: #CCCCCC;
+    color: black;
+    padding: 30px 20px 20px;
+}
+
+footer p {
+    margin-bottom: 1rem;
+    font-size: 16px;
+    line-height: 2;
+}
+
+footer ul li a {
+    font-size: 16px;
+    color: #CCCC66;
+    line-height: 2.8;
+    text-decoration: underline;
+    transition: all .3s ease;
+}
+
+footer ul li a:hover {
+    text-decoration: none;
+}
+
+footer .foot-btn {
+    margin-top: 1rem;
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #666666;
+    color: var(--theme-reg);
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+
+footer .foot-btn:hover {
+    background-color: #666666a1;
+}
+
+footer .foot-img {
+    margin-bottom: 5px;
+    width: 125%;
+}
+
+footer .txt {
+    margin-top: 2rem;
+}
+
+/* footer section end */
